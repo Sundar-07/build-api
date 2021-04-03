@@ -15,4 +15,4 @@ class ProjectDetail(generics.RetrieveUpdateDestroyAPIView):
     lookup_field = 'unit_status'
 
 def index(request):
-    return render(request,'api/index.html')
+    return render(request,'index.html')
